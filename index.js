@@ -49,7 +49,7 @@ app.use((req, res, next) => {
 const connectionString="mongodb+srv://Kaveesha:kavee123@cluster0.jismfn6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 mongoose.connect(connectionString).then(
     () =>{
-        console.log("Database connected");
+        console.log("Database connected successfully");
     }
 ).catch( ()=>{
     console.log("Database connection failed");
